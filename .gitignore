@@ -1,0 +1,16 @@
+# 依赖文件夹 
+node_modules/
+
+# 编译构建产生的文件
+dist/
+.cache/
+.parcel-cache/
+*.vite/
+
+# 操作系统或IDE自动生成的文件
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
