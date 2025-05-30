@@ -4,20 +4,22 @@
 本项目尝试实现模拟小鹅通直播间。项目包含响应式前端界面和后端服务。
 
 ## 项目结构
+ ```
 live-demo/
-├── backend/ 
-│   ├── api/ 
-│   │   └── videos/ 
-├── frontend/ 
+├── backend/ # 后端服务
+│   ├── api/ # API 接口
+│   │   └── videos/ # 视频资源存储
+├── frontend/ # 前端应用
 │   ├── src/
-│   │   ├── components/ 
-│   │   ├── utils/ 
-│   │   ├── App.vue 
-│   │   └── main.js 
-│   ├── index.html
-│   ├── package.json 
-│   └── vite.config.js 
-└── README.md
+│   │   ├── components/ # 布局
+│   │   ├── utils/ # 配置文件
+│   │   ├── App.vue # 主应用组件
+│   │   └── main.js # 应用入口
+│   ├── index.html # 主页面
+│   ├── package.json # 依赖配置
+│   └── vite.config.js # Vite 配置
+└── README.md # 项目文档
+ ```
 
 ## 环境要求
 - **前端开发环境**:
