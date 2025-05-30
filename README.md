@@ -5,31 +5,18 @@
 
 ## 项目结构
 live-demo/
-
 ├── backend/ # 后端服务
-
 │   ├── api/ # API 接口
-
 │   │   └── videos/ # 视频资源存储
-
 ├── frontend/ # 前端应用
-
 │   ├── src/
-
 │   │   ├── components/ # 布局
-
 │   │   ├── utils/ # 配置文件
-
 │   │   ├── App.vue # 主应用组件
-
 │   │   └── main.js # 应用入口
-
 │   ├── index.html # 主页面
-
 │   ├── package.json # 依赖配置
-
 │   └── vite.config.js # Vite 配置
-
 └── README.md # 项目文档
 
 ## 环境要求
