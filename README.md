@@ -1,22 +1,35 @@
 # 直播回放演示项目
 
 ## 项目概述
-本项目尝试实现模拟小鹅通直播间。项目包含响应式前端界面（移动端和桌面端）和后端服务。
+本项目尝试实现模拟小鹅通直播间。项目包含响应式前端界面和后端服务。
 
 ## 项目结构
 live-demo/
+
 ├── backend/ # 后端服务
-│ ├── api/ # API 接口
-│ └── videos/ # 视频资源存储
+
+│   ├── api/ # API 接口
+
+│   │   └── videos/ # 视频资源存储
+
 ├── frontend/ # 前端应用
-│ ├── src/
-│ │ ├── components/ # 布局
-│ │ ├── utils/ # 配置文件 
-│ │ ├─ App.vue # 主应用组件
-│ │ └─ main.js # 应用入口
-│ ├─ index.html # 主页面
-│ ├─ package.json # 依赖配置
-│ └─ vite.config.js # Vite 配置
+
+│   ├── src/
+
+│   │   ├── components/ # 布局
+
+│   │   ├── utils/ # 配置文件
+
+│   │   ├── App.vue # 主应用组件
+
+│   │   └── main.js # 应用入口
+
+│   ├── index.html # 主页面
+
+│   ├── package.json # 依赖配置
+
+│   └── vite.config.js # Vite 配置
+
 └── README.md # 项目文档
 
 ## 环境要求
@@ -31,14 +44,14 @@ live-demo/
 ### 1. 配置后端服务(WampServer)
 1. 下载并安装WampServer
 2. 将项目（`live-demo`目录）mlink到WampServer的`www`目录
-3. 确保目录结构为：`www/live-demo/backend/...`
+3. 目录结构为：`www/live-demo/backend/...`
 4. 启动WampServer服务
 
 ### 2. 启动前端开发服务器
 ```bash
 cd frontend
-npm install   # 安装依赖
-npm run dev   # 启动开发服务器
+npm install   
+npm run dev  
 ```
 
 ## 开发历程
