@@ -49,25 +49,30 @@ npm run dev
 
 作为前端新手，还是决定先系统学习核心知识，先去看看Vue3怎么用吧，于是打开了 B 站（参考vue3入门教程：https://www.bilibili.com/video/BV1TLjBzyEG2?spm_id_from=333.788.videopod.episodes&vd_source=0dd4574dd2c46a1e4a138f3606b500b5&p=2）
 
+```
 01_为什么选择Vue框架：Vue是渐进式框架
 02_Vue简介：响应式数据绑定
 03_Vue API风格：Options API vs Composition API
 04_Vue开发前的准备：配置环境果然是最难的...
 05_Vue项目目录结构：src/components
+```
 
 ###  2025-5-17
+```
 06_模板语法：“插值”
 07_属性绑定：v-bind:src => :src
 08_条件渲染：v-if vs v-show 
 09_列表渲染：v-for 
 10_通过key管理状态：key
-
+```
 
 ###  2025-5-18
+```
 11_事件处理：@click="togglePlay"
 12_事件传参：传视频 ID
 13_事件修饰符：.stop.prevent
 14_数组变化侦测：Vue 如何监听数组变化
+```
 
 终于大概理解了 vue3 的逻辑。
 感觉Composition API​​是重点，ref()、reactive()用于处理响应式数据，computed、watch是监听变化的，onMounted, onUnmounted用于管理生命周期
